@@ -1,0 +1,64 @@
+// [[ Customizing default style in Swiper.js ]]
+
+.swiper-navigation {
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+// Navigation Button
+.swiper-button-prev,
+.swiper-button-next {
+  position: static;
+  transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(40);
+  height: rem(40);
+  border-radius: 100%;
+  background: none;
+  border: 1px solid rgba(#333, 0.3);
+  padding: 0;
+  margin-top: 0;
+  
+  &::before {
+    content: '';
+    display: block;
+    width: rem(18);
+    height: rem(18);
+    background: {
+    	repeat: no-repeat;
+    	position: center;
+    	size: 100% auto;
+    }
+  }
+  
+  &::after {
+    display: none;
+  }
+  
+  @include mdq-min(lg) {
+    width: rem(60);
+    height: rem(60);
+  }
+}
+
+.swiper-button-prev::before {
+  background-image: url(../images/icons/swiper_button_prev.svg);
+}
+
+.swiper-button-next::before {
+  background-image: url(../images/icons/swiper_button_next.svg);
+}
+
+.home {
+  .swiper-button-prev::before {
+    background-image: url(../images/icons/swiper_button_prev_w.svg);
+  }
+  
+  .swiper-button-next::before {
+    background-image: url(../images/icons/swiper_button_next_w.svg);
+  }
+}

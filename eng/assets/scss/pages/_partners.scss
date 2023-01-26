@@ -1,0 +1,60 @@
+// Layout
+.partner {
+  display: flex;
+  flex-wrap: wrap;
+  
+  &__header {
+    flex: 1 0 100%;
+    
+    @include mdq-min(lg) {
+      flex: 1 0 rem(360);
+      max-width: rem(360);
+    }
+  }
+  
+  &__body {
+    flex: 1 0 100%;
+    
+    @include mdq-min(lg) {
+      flex: 1 1 auto;
+      width: 1%;
+    }
+  }
+  
+  &-title {
+    margin-bottom: rem(20);
+    
+    @include mdq-min(lg) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// List
+.partner-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: rem(12);
+  
+  @include mdq-min(sm) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(20);
+  }
+  
+  @include mdq-min(md) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: rem(40);
+  }
+  
+  &-thumb {
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+    @include image-cover(percentage(100/230));
+  }
+  
+  &-title {
+    color: #666;
+    text-align: center;
+    padding: rem(22) rem(12) rem(12);
+  }
+}

@@ -1,0 +1,36 @@
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(24);
+  padding: rem(21) rem(30);
+  @include font-size(14px);
+  font-weight: 900;
+  color: #333;
+  letter-spacing: -0.5px;
+  border: 1px solid rgba(#333, 0.3);
+  border-radius: rem(50);
+  transition: all .3s ease-in-out;
+  
+  &::after {
+    content: '';
+    display: block;
+    width: rem(18);
+    height: rem(8);
+    background: {
+      image: url("data:image/svg+xml,%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.382872' width='0.914558' height='6.71838' transform='matrix(-0.765744 0.643145 -0.765744 -0.643145 19.6761 4.75376)' fill='%23333333' stroke='%23333333' stroke-width='0.5'/%3E%3Crect x='-2.98023e-08' y='-0.321572' width='0.914558' height='6.71837' transform='matrix(0.765745 0.643145 -0.765744 0.643145 18.4364 4.61962)' fill='%23333333' stroke='%23333333' stroke-width='0.5'/%3E%3Crect x='0.25' y='-0.25' width='17.17' height='0.877059' transform='matrix(-1 -1.39968e-08 1.6665e-08 1 18.1699 4.8125)' fill='%23333333' stroke='%23333333' stroke-width='0.5'/%3E%3C/svg%3E%0A");
+    	repeat: no-repeat;
+    	position: center;
+    	size: cover;
+    }
+  }
+  
+  &:hover {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+    
+    &::after {
+      background-image: url("data:image/svg+xml,%3Csvg width='20' height='10' viewBox='0 0 20 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.382872' width='0.914558' height='6.71838' transform='matrix(-0.765744 0.643145 -0.765744 -0.643145 19.6761 4.75376)' fill='%23ffffff' stroke='%23ffffff' stroke-width='0.5'/%3E%3Crect x='-2.98023e-08' y='-0.321572' width='0.914558' height='6.71837' transform='matrix(0.765745 0.643145 -0.765744 0.643145 18.4364 4.61962)' fill='%23ffffff' stroke='%23ffffff' stroke-width='0.5'/%3E%3Crect x='0.25' y='-0.25' width='17.17' height='0.877059' transform='matrix(-1 -1.39968e-08 1.6665e-08 1 18.1699 4.8125)' fill='%23ffffff' stroke='%23ffffff' stroke-width='0.5'/%3E%3C/svg%3E%0A");
+    }
+  }
+}

@@ -1,0 +1,121 @@
+// Location
+.location {
+  $parent: &;
+  
+  &__header {
+    position: relative;
+    
+    &::before {
+      content: '';
+      display: block;
+      width: rem(28);
+      height: rem(30);
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: {
+        image: url("data:image/svg+xml,%3Csvg width='28' height='30' viewBox='0 0 28 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.0572 18.2505C20.7668 21.4735 17.6147 23.75 13.9309 23.75C10.247 23.75 7.09487 21.4735 5.80452 18.2505L0 20.5723C2.21203 26.0974 7.6157 30 13.9309 30C20.246 30 25.6497 26.0974 27.8617 20.5723L22.0572 18.2505Z' fill='%23333333' style='mix-blend-mode:multiply'/%3E%3Cpath d='M22.0572 11.7495C20.7668 8.52652 17.6147 6.25 13.9309 6.25C10.247 6.25 7.09487 8.52652 5.80452 11.7495L0 9.42766C2.21203 3.9026 7.6157 0 13.9309 0C20.246 0 25.6497 3.9026 27.8617 9.42766L22.0572 11.7495Z' fill='%23333333' style='mix-blend-mode:multiply'/%3E%3Cpath d='M17.0344 15.1C17.0344 16.8121 15.6465 18.2 13.9344 18.2C12.2223 18.2 10.8344 16.8121 10.8344 15.1C10.8344 13.3879 12.2223 12 13.9344 12C15.6465 12 17.0344 13.3879 17.0344 15.1Z' fill='%23333333' style='mix-blend-mode:multiply'/%3E%3C/svg%3E%0A");
+        repeat: no-repeat;
+        position: center;
+        size: cover;
+      }
+    }
+    
+    &::after {
+      content: attr(data-title);
+      display: block;
+      font-weight: 500;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    
+    @include mdq-min(lg) {
+      padding-left: em(360);
+    }
+  }
+  
+  &__body {
+    display: block;
+    padding-top: rem(50);
+    padding-left: rem(20);
+    padding-right: rem(20);
+    
+    @include mdq-min(lg) {
+      display: flex;
+      padding-top: rem(80);
+      padding-left: 0;
+      padding-right: rem(150);
+    }
+  }
+  
+  &-image {
+    @include image-cover(percentage(585/1040));
+  }
+  
+  &-map {
+    &::after {
+      content: '';
+      display: block;
+      padding-bottom: percentage(585/1040);
+    }
+  }
+  
+  &-title {
+    flex: 0 0 rem(360);
+    width: rem(360);
+  }
+  
+  &-desc {
+    color: #666;
+    margin-top: rem(24);
+    
+    @include mdq-min(lg) {
+      flex: 1 1 auto;
+      width: 1%;
+      margin-top: 0;
+      padding-left: rem(72);
+      
+      &.location-desc--right {
+        text-align: right;
+        
+        .location-contact {
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+  
+  &-contact {
+    display: flex;
+    align-items: center;
+    gap: rem(32);
+    margin-top: rem(16);
+    
+    @include mdq-min(lg) {
+      margin-top: rem(5);
+    }
+  }
+  
+  &-tel,
+  &-fax {
+    display: flex;
+    align-items: center;
+    gap: rem(8);
+    @extend %remixicon;
+  }
+  
+  &-tel {
+    &::before {
+      content: '\efe9';
+      color: #999;
+    }
+  }
+  
+  &-fax {
+    &::before {
+      content: '\f028';
+      color: #999;
+    }
+  }
+}

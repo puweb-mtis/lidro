@@ -1,0 +1,114 @@
+// Line Banner
+.line-banner {
+  background: {
+  	repeat: no-repeat;
+  	position: bottom left;
+  	size: cover;
+  }
+  
+  &::after {
+    content: '';
+    display: block;
+    padding-bottom: percentage(260/360);
+  }
+  
+  @include mdq-min(md) {
+    background: {
+      position: center;
+    	size: 100% auto;
+      attachment: fixed;
+    }
+    
+    &::after {
+      padding-bottom: percentage(640/1920);
+    }
+  }
+}
+
+// Text Banner
+.text-banner {
+  @include mdq-min(lg) {
+    display: flex;
+  }
+  
+  &__header {
+    flex: 0 0 rem(280);
+    width: rem(280);
+    
+    @include mdq-min(lg) {
+      flex: 0 0 rem(360);
+      width: rem(360);
+    }
+  }
+  
+  &__body {
+    margin-top: rem(30);
+    
+    @include mdq-min(lg) {
+      flex: 1 1 auto;
+      width: 1%;
+      margin-top: 0;
+      padding-left: rem(20);
+    }
+    
+    @include mdq-min(laptop) {
+      padding-left: rem(60);
+    }
+  }
+}
+
+// Figure Banner
+.figure-banner {
+  $parent: &;
+  
+  &__header {
+    position: relative;
+    
+    &::after {
+      content: attr(data-title);
+      display: block;
+      font-weight: 500;
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+    }
+    
+    @include mdq-min(lg) {
+      padding-left: rem(360);
+      
+      &::after {
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+  
+  &__body {
+    display: block;
+    padding-top: rem(20);
+    
+    @include mdq-min(lg) {
+      display: flex;
+      padding-top: rem(85);
+    }
+  }
+  
+  &-image {
+    @include image-cover(percentage(580/1040));
+  }
+  
+  &-title {
+    flex: 0 0 rem(360);
+    width: rem(360);
+  }
+  
+  &-desc {
+    color: #666;
+    margin-top: rem(24);
+    
+    @include mdq-min(lg) {
+      margin-top: 0;
+      padding-left: rem(72);
+    }
+  }
+}

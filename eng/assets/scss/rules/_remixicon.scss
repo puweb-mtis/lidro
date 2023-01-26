@@ -1,0 +1,11 @@
+%remixicon {
+  line-height: 1;
+  font-family: 'remixicon', sans-serif !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  &::before {
+    line-height: 1;
+  }
+}
