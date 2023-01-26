@@ -1,0 +1,24 @@
+.page-title {
+  position: relative;
+  text-align: center;
+  padding-top: em(200);
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: em(140);
+    background-color: #333;
+  }
+  
+  @include mdq-min(laptop) {
+    padding-top: em(440);
+    
+    &::before {
+      height: em(340);
+    }
+  }
+}

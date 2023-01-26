@@ -1,0 +1,50 @@
+@keyframes tani-slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes tani-typing {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+[data-tani-element] {
+  position: relative;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+[data-tani-type="slideUp"] {
+  [data-tani-item] {
+    display: block;
+    transform: translateY(100%);
+  }
+  
+  &.active {
+    [data-tani-item] {
+      animation: tani-slideUp 1.5s cubic-bezier(0.165, 0.840, 0.440, 1.000) 0s 1 alternate both;
+    }
+  }
+}
+
+[data-tani-type="typing"] {
+  [data-tani-item] {
+    opacity: 0;
+  }
+  
+  &.active {
+    [data-tani-item] {
+      animation: tani-typing 0s cubic-bezier(0.165, 0.840, 0.440, 1.000) 0s 1 alternate both;
+    }
+  }
+}

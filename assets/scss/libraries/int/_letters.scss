@@ -1,0 +1,42 @@
+[data-letter-animation] {
+  position: relative;
+  display: inline-flex;
+  overflow: hidden;
+  
+  span {
+    display: block;
+    transform: translateY(100%);
+  }
+  
+  &.active span {
+    line-height: 1.25;
+    animation: ani-text 1.5s cubic-bezier(0.165, 0.840, 0.440, 1.000) 0s 1 alternate both;
+  }
+}
+
+@keyframes ani-text {
+  0% {
+    transform: translateY(100%);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+}
+
+[data-letters-wrapper] {
+  position: relative;
+  display: inline-block;
+  //padding-top: 0.2em;
+  //padding-right: 0.05em;
+  //padding-bottom: 0.1em;
+  overflow: hidden;
+  line-height: 1.25;
+  margin-top: -0.1em;
+  
+  .letter {
+    display: inline-block;
+    line-height: 1.25;
+    white-space: nowrap;
+  }
+}

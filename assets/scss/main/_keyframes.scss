@@ -1,0 +1,58 @@
+// keyframes
+@keyframes main-visual-blur-active {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: percentage(660/1920);
+  }
+}
+
+@keyframes main-visual-blur-sliding {
+  0% {
+    width: percentage(660/1920);
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes main-visual-blur-slided {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes main-visual-blur-active-mobile {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes main-visual-title-active {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes main-visual-sub-title-active {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}

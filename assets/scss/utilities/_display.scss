@@ -1,0 +1,17 @@
+$displays: 'none', 'block', 'inline-block', 'flex', 'inline-flex';
+
+@each $prop in $displays {
+  @each $prefix, $value in $grid-breakpoints {
+    @if ( $value == 0 ) {
+      .d-#{$prop} {
+        display: #{$prop} !important;
+      }
+    } @else {
+      @include mdq-min($prefix) {
+        .d-#{$prefix}-#{$prop} {
+          display: #{$prop} !important;
+        }
+      }
+    }
+  }
+}

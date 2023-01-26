@@ -1,0 +1,18 @@
+// Section ( MAIN )
+.home {
+  .section {
+  }
+}
+
+// Section ( NOT MAIN )
+body:not(.home) {
+  .section {
+    @include padding-top(40px);
+    @include padding-bottom(40px);
+    
+    @include mdq-min(xl) {
+      @include padding-top(80px);
+      @include padding-bottom(80px);
+    }
+  }
+}
