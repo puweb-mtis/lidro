@@ -90,5 +90,29 @@
 
 // ONLY INDEX
 .intro-index {
-
+  .right-top-symbol {
+    position: relative;
+    
+    &::after {
+      display: none;
+      position: absolute;
+      top: rem(6);
+      right: 0;
+      content: '';
+      width: rem(20);
+      height: rem(20);
+      background: {
+        image: url(../images/symbol_b.svg);
+        repeat: no-repeat;
+        position: center;
+        size: auto 100%;
+      }
+      
+      @include mdq-min(md) {
+        display: block;
+        width: rem(30);
+        height: rem(30);
+      }
+    }
+  }
 }

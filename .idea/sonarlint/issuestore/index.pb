@@ -3,12 +3,6 @@ O
 assets/scss/utilities/_api.scss,d\2\d27a887a92a84f8a14b86c2587f3189ec90b7655
 P
  assets/scss/pages/_location.scss,8\8\88f92aba27fd044a2e8aeb75839d802e6b97500f
-P
- assets/scss/layouts/_header.scss,d\4\d44774afeede83ad1c1af60edb961e2a6584a2a3
-9
-	lidro.iml,c\9\c910deba1a57b4948e94a3fe0a3edebe82001a55
-H
-assets/scss/_reboot.scss,0\2\02a53efb2be8c8c8172b4c3d1b744406447f1bc2
 S
 #assets/scss/components/_swiper.scss,3\6\36b8728a20054c8aacd06244ef56b0c779f5ed46
 V
@@ -31,16 +25,12 @@ E
 assets/scss/main.scss,a\e\ae573ce40ae196f4c294df6627f51af3f890eeb0
 H
 assets/scss/_config.scss,b\e\be970349a20d6a8fdbede556fe94374c60df1903
-M
-assets/scss/config/_maps.scss,1\6\167764bf536cd78fc8d3be4e05f2172f5a398218
 P
  assets/scss/pages/_partners.scss,0\e\0ea89a58f0624e8a39c5fec18235c22580b5a326
 L
 assets/scss/_components.scss,d\6\d66ad5cc6bb7d32977043f3ebd2b3d0393222188
 H
 assets/scss/_custom.scss,8\d\8d303f1b5c8d13cbcc9aa1b8abbd97cb8aae3822
-K
-assets/js/libs/anime.min.js,0\9\09c883b96b00d0135035635b2f05caad907fd0e9
 I
 assets/js/libs/aos.min.js,e\b\eb71594450425f564242e462e31cb1a40dc0d571
 `
@@ -59,14 +49,10 @@ N
 assets/scss/main/_product.scss,0\c\0c3a2482d11bd948a960e6a52e2bfa93d5f86bc1
 T
 $assets/scss/mixins/_breakpoints.scss,0\1\01902cc83df88ee076dcac5813c2ed90b69a7ad9
-R
-"assets/scss/config/_variables.scss,6\4\647b4df3760076db1027df2112cdfe9185cbcee9
 M
 assets/scss/layouts/_nav.scss,0\6\063f63c6439079c5a30f2e7581ffd156b2036261
 O
 assets/scss/pages/_history.scss,1\8\1817a9e3bc309e303a8f71f7e9d00d25df280d2b
-T
-$assets/scss/components/_product.scss,e\4\e4f13391118d295a4cb6f062760a791de964d0b9
 S
 #assets/scss/utilities/_display.scss,d\8\d81529dddefc3b40c351eef850713c01656f1fb2
 I
@@ -79,8 +65,6 @@ T
 $assets/scss/components/_section.scss,c\a\cac23d7631ec5a5da35b7546765446227b8259d4
 Q
 !assets/fonts/icons/remixicon.less,1\c\1ce634cb87877ea8cadf1e3eca0c2a4a60d5d36f
-T
-$assets/scss/components/_buttons.scss,8\8\88cb70dfa1b7fdff513f0616372ff9a1ab1645ae
 W
 'assets/scss/libraries/int/_letters.scss,e\c\eca31ed8d7af6dd416ea89675b8760a66a41ab19
 Q
@@ -92,12 +76,8 @@ W
 robots.txt,3\7\377f6a321ea49092ae656938a73989aed62ca738
 P
  assets/scss/main/_keyframes.scss,6\f\6f982e5c63e87c686d3012eb4d2e4febfe1e7777
-W
-'assets/scss/components/_page-title.scss,6\c\6c86567ddc2832f89c7ac1c414f9b3e9fcfdbb83
 I
 assets/css/common.css.map,b\f\bfd65b9cf3c448528a34786fe12ce2e9127b35c3
-S
-#assets/scss/components/_banner.scss,f\3\f389381946d68eb029aec3618f62075a7c36c374
 U
 %assets/scss/libraries/int/_stani.scss,3\b\3b0fda6d7d2fb8cb690ed378e8639cbb58f04def
 G
@@ -106,8 +86,6 @@ P
  assets/scss/pages/_brochure.scss,b\6\b6269afe3b17ae8a12dafc136fa859ba6c0a6aa9
 P
  assets/scss/utilities/_font.scss,e\7\e77e819a3780ca67c40e88c89954b9f0762fbeec
-Q
-!assets/scss/components/_hash.scss,c\9\c9943cd5e0d6a1ac91e9bbfb37069613490950e4
 Y
 )assets/js/libs/jquery.fullpage.min.js.map,a\9\a9425914ababb0b178a23f178576b37bf3a4049a
 O
@@ -130,20 +108,14 @@ N
 assets/scss/mixins/_image.scss,d\7\d76ab0f6f8520bddd4d5b3e0ad487857265b20cd
 H
 assets/css/pages.min.css,8\8\8871c1c4068ad3e61e50c960d96d57857f92f8f0
-R
-"assets/scss/components/_board.scss,9\a\9aeab41ce117bb8b71e3882770b2718a47c926e1
 M
 assets/css/common.min.css.map,1\8\1853fb079a49156513523be9509b0a37f8b315d1
-K
-assets/scss/_functions.scss,6\8\68b8fc48536b574754077f6a5a2714cc0da2370a
 T
 $assets/scss/pages/_product-list.scss,1\0\1033fd8ecf7471daecbf509c7255da728aec769a
 X
 (assets/js/libs/scrolloverflow.min.js.map,7\e\7e6b8f7493f435712efe90f40ab9e633692dcd13
 W
 'assets/scss/components/_responsive.scss,d\2\d2df79b147e75b3b2afaee94db67ed22cbaeda6b
-M
-assets/scss/pages/_intro.scss,2\1\21eb97b6aa27173baad9999ee4a72a64e7f1168b
 H
 assets/css/pages.css.map,2\3\230102c88bb34ba0c7ad77a3ada902d6b088a29b
 P
@@ -166,10 +138,6 @@ L
 assets/css/pages.min.css.map,2\a\2adeeddbf437564a0e10c1877b96ae51fa9149cc
 S
 #assets/js/libs/jquery-1.11.1.min.js,f\8\f8f6bc9f5319329bae2f2358544071df988c9282
-F
-assets/scss/_root.scss,9\8\9883aa2031cde9247ddb709b214b8ff19d7c24ea
-S
-#assets/scss/components/_bullet.scss,5\2\5211ddedc5571a9c34923b3d25d2310384558766
 L
 assets/scss/vendor/_rfs.scss,1\6\16d95825b094b85bcd704343019bc707f2b347c4
 E
@@ -186,8 +154,6 @@ V
 &assets/images/favicon/site.webmanifest,b\6\b6e20f2f8f4f6737364a461acf25f022239e9d2a
 Q
 !assets/scss/rules/_remixicon.scss,c\0\c073f3d3b09a0c500a5f7ed339dd929cc8d43dcc
-U
-%assets/scss/components/_location.scss,1\c\1c078b025dc45d0b6c512e75fd3c31f8839dad17
 D
 assets/css/pages.css,0\9\09f8b1fa8e038687124db117a00eca1cc8bc66de
 J
@@ -214,8 +180,6 @@ W
 'assets/images/favicon/browserconfig.xml,5\6\56b7f6ae8adc15a4aa3c5894baf36fad582f357c
 V
 &assets/images/icons/btn_link_arrow.svg,0\8\08adad477c48a278f34308f45836ecb359901b03
-E
-assets/js/pages/ci.js,f\0\f0a315fd021a1bbdae34c87894a30d7715d7e6d4
 D
 Coding_Convention.md,6\6\6653665013715c8fab2ef245e27933b0b8f387ae
 C
@@ -240,20 +204,14 @@ S
 #assets/images/icons/information.svg,6\b\6beee1ced08f977bf58f28425681b1070c2eb52c
 Y
 )assets/images/icons/information_light.svg,c\2\c2880f3aa144f1af25d5b3422765886f5034c647
-H
-assets/js/pages/intro.js,2\2\229cc3912c969cafe6101d43ef6fcee761372f86
 Q
 !assets/js/libs/jquery.fullpage.js,9\f\9fe4dedba2a7b1a04ec61b7f2d7ec2cb266c28f0
 C
 assets/js/letter.js,1\1\11a416b6d2f4804696d90f072a013934f9d319ba
-K
-assets/js/pages/location.js,2\5\25f90040806613aeb50736ffe5e03021847d8b06
 F
 assets/images/logo.svg,7\a\7a8d60b936ba38900731571043396f266f8ffdf1
 H
 assets/images/logo_w.svg,f\2\f20789771e5282c298a46d08a6e1ccd2b8dc2a61
-A
-assets/js/main.js,2\7\27535fc9a68fbb5975536329c4632c8cca0d3e2a
 R
 "assets/images/icons/map_marker.svg,f\d\fd8a9293681ea58d7ae615032a053c4d74ae0b3c
 I
@@ -278,8 +236,6 @@ G
 assets/images/README.md,4\a\4af1031fd74aac14d4656ff528aaeb9ec280f4ef
 C
 assets/js/README.md,4\f\4fc5487984b7d0d961b36014ae5340c5ba0c6276
-J
-assets/js/pages/recruit.js,e\7\e73450563e4d71ffc1ccc85d7003d117b10179c0
 U
 %assets/images/icons/recruit_apply.svg,3\5\35889ed45951856f5ee3fd44f9a18f81d86f8279
 P
@@ -290,8 +246,6 @@ W
 +assets/images/favicon/safari-pinned-tab.svg,c\a\caf880c3b0a3001c2604f93ab26da46af7911c33
 J
 assets/js/scroll-active.js,0\1\01e58dcab2259056a02fc5177f2ecf7c70eeb946
-H
-assets/js/libs/swiper.js,6\e\6e0df2475c147028207e72a0a3dba260ed5f5ed0
 H
 assets/js/swiper-init.js,6\b\6b7af36dd301374ffeda1bd76cbca4e44cc01e21
 Z
@@ -352,3 +306,43 @@ P
  assets/images/recruit/ideal3.svg,0\7\07091bbf4b4bed0472afd1c4e6274f6106233dfc
 P
  assets/images/recruit/ideal4.svg,2\5\25a8be228e4ed703406c05155261f7360c2a0e45
+O
+eng/assets/js/pages/location.js,e\9\e994af2c0775a9e5472fd9e7838403600aa69c7b
+I
+eng/assets/css/common.css,a\a\aa82b786af2ea7120e8b76e40d35406640ee7dfb
+C
+intro/location.html,e\a\ea32c5ce9c6270769abc4e65c0e4dfdba43ce375
+C
+intro/partners.html,1\f\1f400192139f003be3a53e67965f823acc634bdb
+=
+intro/ci.html,f\6\f61589b7247fd957cb921e86d71b8a5efba6e6fc
+E
+promote/brochure.html,a\9\a93db03018a7992b5a5fe7d4bf614a852850e2d2
+B
+product/lidar.html,d\7\d7de1dd24567b67721378ff45689a326c0521417
+H
+assets/scss/_reboot.scss,0\2\02a53efb2be8c8c8172b4c3d1b744406447f1bc2
+F
+assets/scss/_root.scss,9\8\9883aa2031cde9247ddb709b214b8ff19d7c24ea
+M
+assets/scss/config/_maps.scss,1\6\167764bf536cd78fc8d3be4e05f2172f5a398218
+K
+assets/scss/_functions.scss,6\8\68b8fc48536b574754077f6a5a2714cc0da2370a
+R
+"assets/scss/config/_variables.scss,6\4\647b4df3760076db1027df2112cdfe9185cbcee9
+S
+#assets/scss/components/_banner.scss,f\3\f389381946d68eb029aec3618f62075a7c36c374
+R
+"assets/scss/components/_board.scss,9\a\9aeab41ce117bb8b71e3882770b2718a47c926e1
+S
+#assets/scss/components/_bullet.scss,5\2\5211ddedc5571a9c34923b3d25d2310384558766
+T
+$assets/scss/components/_buttons.scss,8\8\88cb70dfa1b7fdff513f0616372ff9a1ab1645ae
+Q
+!assets/scss/components/_hash.scss,c\9\c9943cd5e0d6a1ac91e9bbfb37069613490950e4
+U
+%assets/scss/components/_location.scss,1\c\1c078b025dc45d0b6c512e75fd3c31f8839dad17
+W
+'assets/scss/components/_page-title.scss,6\c\6c86567ddc2832f89c7ac1c414f9b3e9fcfdbb83
+T
+$assets/scss/components/_product.scss,e\4\e4f13391118d295a4cb6f062760a791de964d0b9

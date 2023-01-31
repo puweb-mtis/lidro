@@ -18,11 +18,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  
+    
     .intro-card-title {
       display: none;
       @include margin-top(32px);
-    
+      
       @include mdq-min(xl) {
         display: block;
       }
@@ -56,9 +56,9 @@
     width: rem(60);
     height: rem(60);
     background: {
-    	repeat: no-repeat;
-    	position: center;
-    	size: auto;
+      repeat: no-repeat;
+      position: center;
+      size: auto;
     }
   }
   
@@ -72,7 +72,7 @@
 .location-swiper {
   .swiper-navigation {
     position: absolute;
-    top: 70vw;
+    top: 66vw;
     right: rem(20);
     display: flex;
     align-items: center;
@@ -90,5 +90,28 @@
 
 // ONLY INDEX
 .intro-index {
-
+  .right-top-symbol {
+    position: relative;
+    
+    &::after {
+      position: absolute;
+      top: rem(6);
+      right: 0;
+      content: '';
+      display: block;
+      width: rem(20);
+      height: rem(20);
+      background: {
+        image: url(../images/symbol_b.svg);
+        repeat: no-repeat;
+        position: center;
+        size: auto 100%;
+      }
+      
+      @include mdq-min(md) {
+        width: rem(30);
+        height: rem(30);
+      }
+    }
+  }
 }

@@ -290,7 +290,7 @@
 
 .location-swiper .swiper-navigation {
   position: absolute;
-  top: 70vw;
+  top: 66vw;
   right: 1.25rem;
   display: flex;
   align-items: center;
@@ -302,6 +302,29 @@
     top: inherit;
     bottom: 0;
     right: 0;
+  }
+}
+
+.intro-index .right-top-symbol {
+  position: relative;
+}
+.intro-index .right-top-symbol::after {
+  position: absolute;
+  top: 0.375rem;
+  right: 0;
+  content: "";
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(../images/symbol_b.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+@media (min-width: 769px) {
+  .intro-index .right-top-symbol::after {
+    width: 1.875rem;
+    height: 1.875rem;
   }
 }
 
