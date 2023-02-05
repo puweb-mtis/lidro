@@ -45,16 +45,16 @@ advantageSwiper.swiper.on('touchEnd', e => {
   });
 });
 
-advantageImageSwiper.on('touchMove', e => {
+advantageImageSwiper.swiper.on('touchMove', e => {
   const timer = document.querySelector('.advantage-swiper .timer');
-  advantageImageSwiper.autoplay.stop();
+  advantageImageSwiper.swiper.autoplay.stop();
   timer.classList.remove('active');
 });
 
-advantageImageSwiper.on('touchEnd', e => {
+advantageImageSwiper.swiper.on('touchEnd', e => {
   const timer = document.querySelector('.advantage-swiper .timer');
   document.querySelector('.advantage-swiper .swiper-wrapper').addEventListener('transitionend', e => {
-    advantageImageSwiper.autoplay.start();
+    advantageImageSwiper.swiper.autoplay.start();
     timer.classList.add('active');
   });
 });
